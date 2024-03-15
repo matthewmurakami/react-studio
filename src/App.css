@@ -1,9 +1,58 @@
 /* Add styling for your page here */
 
 .App {
+  background-color: #333;
+  color: white;
+}
 
+.bakery-items{
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .BakeryItem {
-  
+  border: 1px solid #ddd;
+  padding: 16px;
+  width: 200px; /* Adjust width as necessary */
+  margin: 16px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  text-align: center;
+}
+
+.BakeryItem img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.BakeryItem h3 {
+  margin: 8px 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.BakeryItem p {
+  color: #666;
+  font-size: 0.9em;
+}
+
+.bakery-item-price {
+  color: #333;
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+.add-to-cart-btn {
+  background-color: #333; /* Green */
+  color: white;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border: none;
+  cursor: pointer;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #1b1b1b;
 }
